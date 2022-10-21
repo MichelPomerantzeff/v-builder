@@ -1,0 +1,85 @@
+@media (max-width: 750px) {
+    body {
+        /* background: blue; */
+    }
+
+    .app {
+        width: 400px;
+    }
+
+
+    /* PROGRESS BAR */
+
+    .progress_bar_container {
+        gap: 15px;
+    }
+
+    .step {
+        border: double 5px var(--main-color);
+        padding: 7px 15px;
+        font-size: 1.2rem;
+    }
+
+
+    /* PAGES */
+
+    .header {
+        font-size: 1.6rem;
+    }
+
+    .input input {
+        padding: 8px;
+        font-size: .8rem;
+    }
+
+
+    .input label {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+
+    .select_chain_container {
+        gap: 15px;
+    }
+
+    .icons_wrapper {
+        gap: 20px;
+    }
+
+    .single_icon {
+        /* background: #000; */
+        width: 50px;
+    }
+
+    .single_icon img {
+        height: 40px;
+    }
+
+    .links {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: .7rem;
+        padding: 25px 0;
+    }
+
+    .token_resume_row label {
+        font-size: .8rem;
+    }
+
+    .distribution {
+        height: 180px;
+    }
+
+    .token_resume_row .content {
+        width: 225px;
+        min-height: 15px;
+        padding: 8px;
+    }
+
+    .blockchains img {
+        height: 30px;
+    }
+}

@@ -1,0 +1,41 @@
+.progress_bar_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.step{
+    border: solid 2px gray;
+    border: double 8px var(--main-color);
+    background-color: gray;
+    border-radius: 50%;
+    padding: 15px 27px;
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: .5;
+}
+
+.one{
+    background-color: white;
+    opacity: 1;
+}
+
+.two{
+    background-color: white;
+    opacity: 1;
+}
+
+.three{
+    background-color: white;
+    opacity: 1;
+}
+
+.four{
+    background-color: white;
+    opacity: 1;
+}
+
+.horizontal_line{
+    width: 100%;
+}

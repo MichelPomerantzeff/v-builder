@@ -1,0 +1,23 @@
+.token_symbol_container{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.token_symbol_input{
+    /* background: #000; */
+    width: 90%;
+}
+.token_symbol_input input{
+    width: 96%;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 1px #FFFFFF;
+    outline: none;
+    background: #FFFFFF4D;
+    color: #FFFFFF;
+    font-size: 1rem;
+}

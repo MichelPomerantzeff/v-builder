@@ -1,0 +1,29 @@
+.select_chain_container{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons_wrapper{
+    /* background: red; */
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.single_icon{
+    /* background: #000; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.single_icon img{
+    height: 70px;
+}

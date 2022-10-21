@@ -1,0 +1,104 @@
+@media (max-width: 450px) {
+    body {
+        /* background: green; */
+    }
+
+    .app {
+        width: 280px;
+    }
+
+
+    /* PROGRESS BAR */
+
+    .progress_bar_container {
+        gap: 12px;
+    }
+
+    .step {
+        border: double 3px var(--main-color);
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+
+
+    /* TOKEN NAME */
+
+    
+    /* PAGES */
+
+    .header {
+        font-size: 1.4rem;
+    }
+
+    .token_distribution_container{
+        gap: 0px;
+    }
+
+    .inputs_container{
+        gap: 15px;
+    }
+
+    .input{
+        /* background: red; */
+        min-width: 90%;
+    }
+
+    .input label{
+        padding: 2px;
+    }
+    
+
+    .icons_wrapper {
+        gap: 10px;
+    }
+
+    .single_icon {
+        /* background: #000; */
+        width: 40px;
+    }
+
+    .single_icon img {
+        height: 30px;
+    }
+
+    .links {
+        font-size: .8rem;
+    }
+
+    .description {
+        font-size: .6rem;
+        padding: 15px 0;
+    }
+
+    .token_resume_row{
+        /* background: #000; */
+        flex-direction: column;
+        gap: 2px;
+        justify-content: start;
+    }
+
+    .token_resume_row label{
+        /* background: #000; */
+        width: 90%;
+    }
+
+    .toTop{
+        align-items: center;
+    }
+
+    .distribution {
+        height: 180px;
+    }
+
+    .token_resume_row .content {
+        width: 225px;
+        min-height: 15px;
+        padding: 8px;
+    }
+
+    .blockchains img {
+        height: 30px;
+    }
+
+
+}

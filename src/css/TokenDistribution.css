@@ -1,0 +1,55 @@
+.token_distribution_container{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputs_container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    min-width: 45%;
+    flex: 1;
+}
+
+.input label{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.token_distribution_button{
+    /* background: #000; */
+    display: flex;
+    width: 100%;
+}
+
+.token_distribution_button button{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #ffffff0c;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.token_distribution_button button:hover{
+    background: #ffffff18;
+}
+
+.token_distribution_button button:active{
+    background: #ffffff0c;
+}

@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import TokenName from "./pages/TokenName";
+import TokenSymbol from "./pages/TokenSymbol";
+import TokenDistribution from "./pages/TokenDistribution";
+import SelectChain from "./pages/SelectChain";
+import TokenResume from "./pages/TokenResume";
+import './css/responsiveness/laptop.css'
+import './css/responsiveness/tablet.css'
+import './css/responsiveness/phone.css'
+
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Routes>
+      <Route path="/" element={<TokenName />} />
+      <Route path="token-symbol" element={<TokenSymbol />} />
+      <Route path="token-distribution" element={<TokenDistribution />} />
+      <Route path="select-chain" element={<SelectChain />} />
+      <Route path="token-resume" element={<TokenResume />} />
+    </Routes>
+
   );
 }
 

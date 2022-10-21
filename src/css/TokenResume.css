@@ -1,0 +1,49 @@
+.token_resume_container{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.token_resume_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.token_resume_row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    width: 90%;
+}
+
+.toTop{
+    display: flex;
+    align-items: flex-start;
+}
+
+.token_resume_row .content{
+    width: 325px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #ffffff0c;
+    min-height: 20px;
+    padding: 10px;
+}
+
+.blockchains{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+    .blockchains img{
+    height: 40px;
+}

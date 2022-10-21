@@ -1,0 +1,35 @@
+@media (max-width: 1100px) {
+
+    .app {
+        width: 550px;
+        gap: 40px;
+    }
+
+
+    /* PROGRESS BAR */
+
+    .progress_bar_container{
+        gap: 15px;
+    }
+    
+    .step{
+        padding: 12px 22px;
+        font-size: 1.8rem;
+    }
+    
+
+    /* SELECT CHAIN */
+    
+    .single_icon{
+        width: 70px;
+    }
+    
+    .single_icon img{
+        height: 50px;
+    }
+    
+    .links{
+        font-size: 1.2rem;
+    }
+        
+}
