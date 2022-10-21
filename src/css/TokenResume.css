@@ -28,13 +28,16 @@
 }
 
 .token_resume_row .content{
-    width: 325px;
+    min-width: 325px;
     border-radius: 20px;
     border: none;
     outline: none;
     background: #ffffff0c;
     min-height: 20px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blockchains{

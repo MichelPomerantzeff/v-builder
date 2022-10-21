@@ -74,7 +74,7 @@
     }
 
     .token_resume_row .content {
-        width: 225px;
+        min-width: 225px;
         min-height: 15px;
         padding: 8px;
     }

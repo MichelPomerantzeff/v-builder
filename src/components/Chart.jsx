@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Chart.css';
 import { PieChart, Pie } from 'recharts'
 
 
